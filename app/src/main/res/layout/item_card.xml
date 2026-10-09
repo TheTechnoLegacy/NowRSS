@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:paddingLeft="4dp" android:paddingRight="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/card_background"
+        android:paddingLeft="8dp" android:paddingRight="8dp"
+        android:paddingTop="6dp" android:paddingBottom="6dp">
+
+        <TextView
+            android:id="@+id/source"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:singleLine="true" android:ellipsize="end"
+            android:textColor="@color/now_source" android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="4dp" android:maxLines="3" android:ellipsize="end"
+            android:textColor="@color/now_title" android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/snippet"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="6dp" android:maxLines="4" android:ellipsize="end"
+            android:textColor="@color/now_snippet" android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="8dp" android:layout_marginBottom="6dp"
+            android:singleLine="true"
+            android:textColor="@color/now_time" android:textSize="12sp" />
+    </LinearLayout>
+</FrameLayout>

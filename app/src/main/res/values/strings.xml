@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NowRSS</string>
+    <string name="add_feed">Add feed</string>
+    <string name="refresh">Refresh</string>
+    <string name="manage_feeds">Manage feeds</string>
+    <string name="feed_url">Feed URL</string>
+    <string name="add">Add</string>
+    <string name="remove">Remove</string>
+    <string name="cancel">Cancel</string>
+    <string name="empty">No feeds yet.\nTap + to add an RSS or Atom feed.</string>
+    <string name="no_feeds_to_manage">No feeds to manage.</string>
+    <string name="some_failed">Some feeds could not be loaded.</string>
+    <string name="no_browser">No app found to open this link.</string>
+    <string name="open_browser">Open in browser</string>
+    <string name="share">Share</string>
+    <string name="open_in_browser">Open in browser</string>
+    <string name="reader_failed">Reader mode could not extract more of this page.</string>
+    <string name="open_original">Open the original</string>
+</resources>

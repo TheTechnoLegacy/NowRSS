@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="now_background">#ffe5e5e5</color>
+    <color name="now_title">#ff707070</color>
+    <color name="now_snippet">#ff8d8d8d</color>
+    <color name="now_source">#ffdd4b39</color>
+    <color name="now_time">#ffb5b5b5</color>
+</resources>
